@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/slider.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+    <script src="assets/js/jquery-2.1.1.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/tms-0.4.1.js"></script>
+    <script>
+		$(document).ready(function(){
+			$('.slider')._TMS({
+				show:0,
+				pauseOnHover:true,
+				prevBu:'.prev',
+				nextBu:'.next',
+				playBu:false,
+				duration:500,
+				preset:'fade',
+				pagination:true,//'.pagination',true,'<ul></ul>'
+				pagNums:false,
+				slideshow:8000,
+				numStatus:false,
+				banners:'fromBottom',// fromLeft, fromRight, fromTop, fromBottom
+				waitBannerAnimation:false,
+				progressBar:false
+			})
+			
+	 	}) 
+		$(function(){
+		  if($(window).width() <= 1066)
+			{
+			  $("#slider .prev").css("left", "55px")
+			  $("#slider .next").css("right", "55px")
+			}
+		})
+	</script>
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+   		<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+</head>
+<body>
+<div class="bg">
+   <header>
+       <div class="main wrap">
+       		<h1><a href="index.html"><img src="assets/images/logo2.png" alt=""></a></h1> 
+            <p>unit 10 Sedgwick Road, Luton<span>01582 503 482</span></p>
+     </div>
+       <nav>  
+          <ul class="menu">
+              <li><a href="index.html" class="home"><img src="assets/images/home.jpg" alt=""></a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="maintenance.html">Maintenance</a></li>
+              <li><a href="repair.html">Repair</a></li>
+              <li><a href="price-list.html">Price List</a></li>
+              <li><a href="locations.html">Contact</a></li>
+              <li><a href="VACANCIES.html">Vacancies</a></li>
+          </ul>
+          <div class="clear"></div>
+        </nav>
+   </header>
+   <div id="slider">
+       <div class="slider-block">
+          <div class="slider">
+              <ul class="items">
+                  <li><img src="assets/images/slide-1.jpg" alt="" /><div class="banner"><div><span>MOT</span><strong>CLASS 4, 5 &amp; 7</strong><p>We are an approved MOT testing station qualified for class 4,5 &amp; 7. Our testing bay is modern and our staff fully qualified to help you</p><a href="#" class="button">BOOK NOW</a></div></div></li>
+                  <li><img src="assets/images/slide-2.jpg" alt="" /><div class="banner"><div><span>SUPER CARS</span><strong>35 years experience</strong><p>on top of servicing and repairing vehicles we specialise in Ferrari, Lamorghini, Maserati, Porsche and many more prestigious cars so stop paying too much to have yours taken care off.</p><a href="#" class="button">Read More</a></div></div></li>
+                  <li><img src="assets/images/slide-3.jpg" alt="" /><div class="banner"><div><span>Diagnostics</span><strong>Have your vehicle diagnosed</strong><p>Having problems with your vehicle and your dashboard displaying lights you never seen before? Our computers will tell you exactly whats wrong and how to fix it.</p><a href="#" class="button">Read More</a></div></div></li>
+              </ul>
+          </div>
+          <a href="#" class="prev"></a>
+          <a href="#" class="next"></a>
+        </div>
+    </div>
+   <!--==============================content================================-->
+   <section id="content"><div class="ic">More Website Templates @ TemplateMonster.com. November12, 2012!</div>
+      <div class="block-1 box-1">
+        <div>
+            <img src="assets/images/page1-img1.jpg" alt="">
+            <p class="text-1">Schedule <strong>Servicing</strong></p>
+            <p class="upper"><a href="http://blog.templatemonster.com/free-website-templates/" class="link" rel="nofollow" target="_blank"></a> We service All makes and models of cars to main dealer specifications so you don't have to worry about your warranty.</p>
+            <a href="#" class="button">Read More</a>
+        </div>
+        <div>
+            <img src="assets/images/page1-img2.jpg" alt="">
+            <p class="text-1">Preventive <strong>Maintenance</strong></p>
+            <p class="upper">To keep your car running you have to take care of it and service or repair before damage occurs</p>
+            <a href="#" class="button">Read More</a>
+        </div>
+        <div>
+            <img src="assets/images/page1-img3.jpg" alt="">
+            <p class="text-1">Repair <strong>Services</strong></p>
+            <p class="upper">Book in your car for service, MOT or repair and we will collect it from you and bring it back</p>
+            <a href="#" class="button">Read More</a>
+        </div>
+        <div class="last">
+            <img src="assets/images/page1-img4.jpg" alt="">
+            <p class="text-1">Tire & Wheel <strong>Services</strong></p>
+            <p class="upper">We do tyre replacements, wheel balancing and wheel alignments all in one place to make it easy for you</p>
+            <a href="#" class="button">Read More</a>
+        </div>
+      </div>
+      <div class="block-2 wrap pad-2">
+      	<div class="box-2">
+        	<h2 class="clr-1">Reviews</h2>
+            <div class="comments">
+            	<div>
+                	â€œExcellent service, prompt collection and fast turnaround repair to our failed clutch on our 3 Series BMW. Definitely recommend BRD Autocare to anyone!
+
+
+
+
+â€�
+                	<div class="comments-corner"></div>
+                </div>
+                <a href="#">Mrs. M. Hume / Bedfordshire</a>
+            </div>
+            <div class="comments">
+            	<div>
+                	â€œWe were left stranded by the side of the road, our car just slowly lost all power and overheated rapidly into the red.. 
+
+I called BRD Autocare who quickly arranged a recovery to pick us and the car up, conscious of the fact we were stranded with kids in the car they acted very promptly. 
+
+Our head gasket had failed but we were back on the road within days thanks to Bruno! Excellent work - keep it up!â€�
+                	<div class="comments-corner"></div>
+                </div>
+                <a href="#">mr clarke / toddington</a>
+            </div>
+        </div>
+        <div class="box-3">
+        	<h2 class="clr-1">Our Services</h2>
+            <div class="wrap">
+            	<ul class="list-1">
+                	<li><a href="#">ABS, Airbag,Airconditioning</a></li>
+                    <li><a href="#">Electrical repairs & testing</a></li>
+                    <li><a href="#">Wheel Alignment</a></li>
+                    <li><a href="#">Clutch Assembly replacement</a></li>
+                    <li><a href="#">Battery replacement</a></li>
+                    <li><a href="#">Suspension & Brakes overhaul</a></li>
+                    <li><a href="#">Welding, light panel removals and fitting / preparation</a></li>
+                </ul>
+                <ul class="list-1 last">
+                	<li><a href="#">Engine and gearbox overhaul</a></li>
+                    <li><a href="#">Headgasket repair specialists</a></li>
+                    <li><a href="#">Suspension & Brakes overhaul </a></li>
+                    <li><a href="#">Starter motor replacement (or repair if possible) </a></li>
+                    <li><a href="#">Exhaust replacement (or repair if possible)</a></li>
+                    <li><a href="#">Tyre replacement</a></li>
+                </ul>
+            </div>
+            <a href="#" class="button-2">Contact us</a>
+        </div>    
+      </div>  
+   </section> 
+  <!--==============================footer=================================-->
+    <footer>
+       Website  by <a href="http://www.brdgarager.com" class="link" rel="nofollow" target="_blank">BRD</a> 
+    </footer>	
+</div> 
+</body>
+</html>
